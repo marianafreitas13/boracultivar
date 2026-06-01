@@ -1,0 +1,15 @@
+{
+  "name": "boracultivar-backend",
+  "version": "1.0.0",
+  "description": "Backend do projeto Bora Cultivar - preparado para integração com IA",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
